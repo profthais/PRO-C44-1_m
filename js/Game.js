@@ -162,7 +162,8 @@ handleResetButton() {
     database.ref("/").set({
       playerCount: 0,
       gameState: 0,
-      players: {}
+      players: {},
+      carAtEnd: 0
     });
     window.location.reload();
   });
