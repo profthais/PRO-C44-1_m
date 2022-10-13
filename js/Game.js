@@ -163,7 +163,7 @@ handleResetButton() {
       playerCount: 0,
       gameState: 0,
       players: {},
-      carAtEnd: 0
+      carsAtEnd: 0
     });
     window.location.reload();
   });
